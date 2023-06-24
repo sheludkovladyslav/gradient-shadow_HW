@@ -1,0 +1,43 @@
+.linear_gradient {
+  background: rgb(172, 36, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(172, 36, 36, 1) 0%,
+    rgba(80, 6, 170, 1) 100%
+  );
+}
+
+.deg_linear_gradient {
+  background: rgb(172, 36, 36);
+  background: linear-gradient(
+    45deg,
+    rgba(172, 36, 36, 1) 0%,
+    rgba(80, 6, 170, 1) 100%
+  );
+}
+
+.circle_radial_gradient {
+  background: rgb(172, 36, 36);
+  background: radial-gradient(
+    circle,
+    rgba(172, 36, 36, 1) 0%,
+    rgba(80, 6, 170, 1) 100%
+  );
+}
+
+.radial_gradient {
+  background: rgb(172, 36, 36);
+  background: radial-gradient(
+    rgba(172, 36, 36, 1) 0%,
+    rgba(80, 6, 170, 1) 100%
+  );
+}
+
+.inset_shadow {
+  box-shadow: inset 5px 5px 32px 5px #000000;
+}
+
+.shadow {
+    box-shadow: 5px 5px 32px 5px rgba(255,0,0,0.64), 14px 14px 32px 5px rgba(112,64,255,0.64),35px -14px 50px 19px #CBFF82, -1px 3px 8px 5px #1F87FF, 2px 5px 16px 0px #0B325E, 22px -21px 25px -1px #8496FF;;
+}
+
