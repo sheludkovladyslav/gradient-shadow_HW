@@ -33,6 +33,10 @@
   );
 }
 
+.outset_shadow {
+  box-shadow: 5px 5px 15px 5px #000000;
+}
+
 .inset_shadow {
   box-shadow: inset 5px 5px 32px 5px #000000;
 }
